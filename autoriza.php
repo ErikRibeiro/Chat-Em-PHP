@@ -15,6 +15,6 @@ if ($senhabd == $senha && $nomebd == $nome) {
 	$_SESSION['senha'] = $senha;
 	header('Location: chat.php');
 }else{
-	header('Location: index.php');
+	header('Location: index.html');
 }
 ?>
